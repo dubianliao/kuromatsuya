@@ -73,7 +73,7 @@ header{
 	/*width: 100%;*/
 	background-color: ;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 70px;
 
 }
 
@@ -100,11 +100,12 @@ header{
 .concept_img{
 	background-image: url("public/food1-2.jpg");
 	background-size: cover;
-	height: 500px;
+	height: 350px;
 	width: 50%;
 	background-color: brown;
 	text-align: center;
 	float:left;
+	margin-left: 50px;
 }
 
 
