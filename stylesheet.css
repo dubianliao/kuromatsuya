@@ -1,0 +1,131 @@
+ul{
+	list-style-type: none;
+}
+
+/*=========================================ヘッダー*/
+header{
+	height:170px;
+	width:100%;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+}
+
+.header_top{
+	height:60px;
+	width:auto;
+	text-align: center;
+	background-color: ;
+	margin-bottom: 0px;
+}
+.header_top h1{
+	color:white;
+	line-height: 50px;
+	font-family: "ＭＳ Ｐ明朝";
+	font-size: 2.4rem;
+	background-color:;
+	margin-bottom: 0px;
+}
+.header_top h2{
+	color:white;
+	font-family: "ＭＳ Ｐ明朝";
+	font-size: 0.9rem;
+	letter-spacing: 1.0px;
+	background-color:;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.header_bottom{
+	height:50px;
+	width: auto;
+	text-align: center;
+	background-color: ;
+	margin-top: 0px;
+}
+.header_bottom ul{
+	text-align: center;
+}
+
+.header_bottom li{
+	display: inline;
+	color:white;
+	padding-right:20px;
+	line-height:50px;
+	text-align: center;
+	font-size: 0.9rem;
+	letter-spacing: 1.0px;
+	transition: 0.5s ;
+}
+.header_bottom li:hover{
+	color:gray;
+}
+/*=========================================メインコンテナ*/
+
+.main{
+	padding-top: 190px;
+	background-color: black;
+}
+
+/*=========================================メインコンテナ_トップ画像*/
+.top{
+	
+	height: 500px;
+	/*width: 100%;*/
+	background-color: ;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.top_img{
+	background-image: url("public/main2.jpg");
+	background-size: cover;
+	background-color: ;
+	height: 80%;
+	width: 90%;
+	display: inline-block;
+}
+
+/*=========================================メインコンテナ_コンセプト*/
+
+.concept{	
+	height: 800px;
+	/*width: 100%;*/
+	background-color: black;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+.concept_img{
+	background-image: url("public/food1-2.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 50%;
+	background-color: brown;
+	text-align: center;
+	float:left;
+}
+
+
+/*========================↓↓コンテンツ共通利用可能↓↓*/
+
+.content_line{
+	border-bottom: 2px solid white;
+	width:70px;
+}
+.content_text{
+	color:white;
+	float:left;
+	padding:20px 0px 0px 30px;
+	text-align: left;
+	font-size: 0.9rem;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+.content_text h2{
+	font-size: 2.0rem;
+	letter-spacing: 3.0px;
+}
+
+/*========================↑↑コンテンツ共通利用可能↑↑*/
