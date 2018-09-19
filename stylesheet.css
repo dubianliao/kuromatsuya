@@ -27,8 +27,9 @@ header{
 }
 .header_top h2{
 	color:white;
-	font-family: "ＭＳ Ｐ明朝";
-	font-size: 0.9rem;
+	font-family: 'Playfair Display', serif;
+	font-size: 0.88rem;
+	font-weight: lighter;
 	letter-spacing: 1.0px;
 	background-color:;
 	margin-top: 0px;
@@ -52,6 +53,7 @@ header{
 	padding-right:20px;
 	line-height:50px;
 	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 0.9rem;
 	letter-spacing: 1.0px;
 	transition: 0.5s ;
@@ -73,7 +75,7 @@ header{
 	/*width: 100%;*/
 	background-color: ;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 50px;
 
 }
 
@@ -81,23 +83,23 @@ header{
 	background-image: url("public/main2.jpg");
 	background-size: cover;
 	background-color: ;
-	height: 80%;
+	height: 100%;
 	width: 90%;
 	display: inline-block;
 }
 
 /*=========================================メインコンテナ_コンセプト*/
 
-.concept{	
-	height: 800px;
+.content{	
+	height: 600px;
 	/*width: 100%;*/
 	background-color: black;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 300px;
 
 }
 
-.concept_img{
+.content_img{
 	background-image: url("public/food1-2.jpg");
 	background-size: cover;
 	height: 350px;
@@ -111,22 +113,74 @@ header{
 
 /*========================↓↓コンテンツ共通利用可能↓↓*/
 
-.content_line{
-	border-bottom: 2px solid white;
-	width:70px;
-}
 .content_text{
 	color:white;
 	float:left;
 	padding:20px 0px 0px 30px;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: 100;
 	text-align: left;
 	font-size: 0.9rem;
 	letter-spacing: 1.5px;
 	line-height: 30px;
 }
+.content_line{
+	border-bottom: 2px solid white;
+	width:70px;
+	border-color: gray;
+}
 .content_text h2{
+	font-family: 'M PLUS 1p', sans-serif;
 	font-size: 2.0rem;
-	letter-spacing: 3.0px;
+	font-weight: 100;
+	letter-spacing: 8.0px;
 }
 
 /*========================↑↑コンテンツ共通利用可能↑↑*/
+
+/*=========================================メインコンテナ_メニュー*/
+.content_menu{	
+	height: 800px;
+	/*width: 100%;*/
+	background-color: black;
+	text-align: center;
+	padding-top: 0px;
+
+}
+
+.content_img_menu{
+	background-image: url("public/food2.jpg");
+	background-size: cover;
+	height: 350px;
+	width: 50%;
+	background-color: brown;
+	text-align: center;
+	float:left;
+	margin-left: 50px;
+}
+
+
+/*========================↓↓コンテンツ共通利用可能↓↓*/
+
+.content_text_menu{
+	color:white;
+	float:left;
+	padding:20px 0px 0px 250px;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	font-size: 0.9rem;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+.content_line{
+	border-bottom: 2px solid white;
+	width:70px;
+	border-color: gray;
+}
+.content_text h2{
+	font-family: 'M PLUS 1p', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 100;
+	letter-spacing: 8.0px;
+}
