@@ -1,0 +1,10 @@
+@media(max-width:1000px){
+  .content_img{
+    width:100%;
+    height: 30%;
+    margin-left: inherit;
+  }
+  .content_text{
+    width:100%;
+  }
+}
