@@ -1,8 +1,16 @@
 @media(max-width:1000px){
+  .top{
+    height: auto;
+    padding: 10% 0% 10% 0%;
+  }
+.top_img{}
+
   .concept_left{
     width:100%;
+    height: auto;
 }
   .concept_right{
     width:100%;
+    height: auto;
   }
 }

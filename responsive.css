@@ -1,4 +1,10 @@
 @media(max-width:1000px){
+  .top{
+    padding: 0%;
+  }
+
+
+
   .content_img{
     width:100%;
     height: 30%;
