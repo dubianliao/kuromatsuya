@@ -30,7 +30,7 @@
 	}
 	.concept_left{
 		width:100%;
-		height: 300px;
+		height: auto;
 		background-color: rgba(0,0,0,1);
 		/*float: left;*/
 		text-align: center;
@@ -48,6 +48,7 @@
 		width:100%;
 		height: auto;
 		background-color: rgba(0,0,0,0.5);
+		padding-top: 20px;
 	}
 	.concept_title h2{
 		font-family: 'Playfair Display', serif;
@@ -66,7 +67,7 @@
 .menu{
 	max-width: 100%;
 	height:auto;
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(255,0,0,1);
 	padding-top: 30px;
 	padding-left: inherit;
 	color:white;
@@ -91,7 +92,7 @@
 	display: inline-block;
 }
 .menu_left{
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(255,255,255,0.5);
 	width:100%;
 	height:auto;
 
@@ -99,6 +100,8 @@
 	font-family: 'M PLUS 1p', sans-serif;
 	font-size: 1.0rem;
 	letter-spacing: 1.2px;
+
+	box-sizing: border-box;
 }
 .menu_right{
 	background-color: rgba(0,0,0,1);
