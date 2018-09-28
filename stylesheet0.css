@@ -263,9 +263,59 @@ iframe{
 /*========================================メイン_予約*/
 .reservation{
 	width: 100%;
-	height:100px;
-	background-color: rgba(223,255,89,0.5);
+	height:;
+	background-color: black;
+	text-align: center;
+	color:white;
+	padding-top: 200px;
+	padding-bottom: 100px;
 }
+.reserv_title{
+	width:100%;
+	float: left;
+	height:auto;
+	padding-left: ;
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.reserv_title h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+	letter-spacing: 4.0px;
+}
+
+.reserv_border{
+	border-bottom: solid 2px gray;
+	width:10%;
+	display: inline-block;
+}
+.reserv_text{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	display: inline;
+	color:white;
+	text-decoration: none;
+}
+.reserv_text:hover{
+}
+
+.reserv_btn{
+	display: inline-block;
+	border: solid 0px ;
+	border-radius: 5px;
+
+	font-family: 'Playfair Display', serif;
+
+	width:20%;
+	padding:10px;
+	background-color: rgba(255,255,255,0.5);
+	transition: 0.5s;
+}
+
+
 /*========================================メイン_採用*/
 .recruit{
 	width: 100%;
