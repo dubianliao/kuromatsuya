@@ -8,7 +8,7 @@
 	background-color: rgba(0,0,0,1);
 	overflow: hidden;
 	height:auto;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 .top_img{
 	max-width: 100%;
@@ -23,8 +23,9 @@
 	position: fixed;
 	width: 100%;
 	height: auto;
-	background-color: rgba(0,0,255,1);
+	background-color: rgba(0,0,255,0.5);
 	text-align: center;
+	border-bottom: solid gray 1px ;
 }
 .header_resp_top{
 	height:80px;
@@ -33,14 +34,28 @@
 	position: relative;
 }
 .header_resp_ku{
+
 	color:white;
 	font-size: 2rem;
 	font-family:"ＭＳ Ｐ明朝";
 	line-height: 80px;
 }
-.header_resp_right{
-	right: 5px;
+.header_btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: ;
+	height: 80px;
+	width: 15%;
+	top: 0px;
+	right: 0px;
 	position: absolute;
+}
+.fa-bars{
+	font-size: 2rem;
+}
+.header_resp_bottom{
+	display: none;
 }
 /*========================================メイン_コンセプト*/
 .concept{
